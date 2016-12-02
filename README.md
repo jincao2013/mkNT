@@ -30,6 +30,10 @@ mkNT is a python based program which produce different size of nano-tubes from 2
 
 In this example of input of run_me.py, a sets of nano-tube, which inclued [8,9,10,11,12,13,14,15,16,17,18,19,20] times large of supercell with [10,15,20] angstrom of intercal, were produced from 2D-sheet that described by POSCAR_unit.
 
+## mkNT were used in Works of folloing paper ##
+
+1. Jin Cao, Jing Shi, Musheng Wu, Chuying Ouyang, Bo Xu. Lithium ion adsorption and diffusion on black phosphorene nanotube: A first-principles study. *Applied Surface Science* **392**, 88–94 (2017). [Link](http://dx.doi.org/10.1016/j.apsusc.2016.09.004 "DOI")
+
 
 # mkNT 使用说明 #
 
@@ -63,3 +67,6 @@ mkNT用于把层状的材料卷成不同口径的纳米管
 
 这个示例将POSCAR_unit描述的层状材料的原胞沿B方向分别扩胞[8,9,10,11,12,13,14,15,16,17,18,19,20]倍后输出含[10,15,20]埃的真空层的纳米管
 
+## mkNT 在下面的工作中被用到 ##
+
+1. Jin Cao, Jing Shi, Musheng Wu, Chuying Ouyang, Bo Xu. Lithium ion adsorption and diffusion on black phosphorene nanotube: A first-principles study. *Applied Surface Science* **392**, 88–94 (2017). [链接](http://dx.doi.org/10.1016/j.apsusc.2016.09.004 "DOI")
