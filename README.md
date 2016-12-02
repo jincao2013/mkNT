@@ -18,7 +18,7 @@ mkNT is a python based program which produce different size of nano-tubes from 2
 3.	run_me.py  
 	1)	python run_me.py  
 
-## example of input of run_me.py ##
+## Example of input of run_me.py ##
 
 	############## input ##############
 	input_filename = 'POSCAR_unit'
