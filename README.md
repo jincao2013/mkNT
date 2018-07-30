@@ -1,11 +1,11 @@
 # About mkNT #
 
-mkNT is a python based program which produce different size of nano-tubes from 2D-sheet of material 
+mkNT is a python based program producing initial structure of different size of nano-tubes from its 2D-sheet of material. 
 
 ## How to use ##
 
-1.	mkNT can only read a standard POSCAR file. Rename your POSCAR file of prime cell to POSCAR_unit and placed with mkNT.py in the same folder.   
-	1)	ensuring POSCAR_unit is a orthorhombic prime cell  
+1.	mkNT can only process standard VASP POSCAR file. Rename your POSCAR file of prime cell to POSCAR_unit and placed with mkNT.py in the same folder.   
+	1)	ensuring POSCAR_unit is orthorhombic prime cell  
 	2)	ensuring 'c' is the normal diraction of 2D_sheet, mkNT will rolls around 'a' axil of 2D_sheet following the rule of right hand.  
 	3)	atoms should formate a 2D_sheet, but not via periodic bountary condition,  i.e. atoms should not cross the bountary, if you get a result with a strangely large R, it may cause from this.  
 2.	Input parametes in run_me.py as your demand, which include input_filename, A, C, vacuum_list, B_list.  
